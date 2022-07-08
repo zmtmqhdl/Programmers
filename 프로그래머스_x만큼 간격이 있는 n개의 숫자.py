@@ -1,2 +1,2 @@
-def solution(x, n) : # solutionÀÌ¶ó´Â ÇÔ¼ö »ı¼º
-    return [x + x * i for i in range(n)] # °ª ¹İÈ¯
+def solution(x, n) : # solutionì´ë¼ëŠ” í•¨ìˆ˜ ìƒì„±
+    return [x + x * i for i in range(n)] # ê°’ ë°˜í™˜
