@@ -1,0 +1,6 @@
+def solution(array, commands) : # solution이라는 함수 생성
+    answer = [] # answer라는 list생성
+    for i, j, k in commands : # 반복문 for -> commands라는 list의 원소를 차례대로 i, j, k에 대입하며 반복
+        temp = sorted(array[i - 1:j]) # sorted를 사용하여 array[i - 1:j]라는 list의 원소를 오름차순으로 정렬하여 temp라는 list에 저장
+        answer.append(temp[k - 1]) # append를 사용하여 temp[k - 1]을 answer라는 list의 원소로 추가
+    return answer # answer반환
